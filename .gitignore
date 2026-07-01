@@ -1,0 +1,36 @@
+# ===== Large installers / binaries (re-downloadable, ~7 GB) =====
+*.deb
+
+# ===== Vendored third-party source (install via pip instead) =====
+/dlib/
+/GFPGAN/
+
+# ===== Face-image datasets (privacy: real people's photos) =====
+/images/
+/FR APP DB/
+/Class Images/
+/Students Faces/
+/Data Augmentation Phase/
+/Background Images/
+/Test Images/
+/Detected_Faces.jpg
+
+# ===== Model weights & encodings (large binaries / regenerable) =====
+*.pkl
+*.pth
+gfpgan/weights/
+face_recognition_app/gfpgan/weights/
+
+# ===== Generated attendance output =====
+Attendance.xlsx
+face_recognition_app/Attendance.xlsx
+
+# ===== Python / Jupyter caches =====
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ===== OS / editor cruft =====
+.DS_Store
+Thumbs.db
+.vscode/

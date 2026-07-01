@@ -1,0 +1,21 @@
+# Core app
+streamlit
+streamlit-js-eval
+
+# Face detection / recognition / enhancement
+deepface
+mtcnn
+gfpgan
+face_recognition          # requires dlib (see README for install notes)
+
+# Image & data processing
+opencv-python
+Pillow
+imutils
+numpy
+pandas
+matplotlib
+openpyxl
+
+# Deep-learning backend pulled in by deepface / mtcnn
+tensorflow
